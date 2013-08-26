@@ -420,7 +420,7 @@ process
 
 
 
-/* めにゅー
+/* メニュー
 --------------------*/
 
 #nav{
@@ -450,6 +450,8 @@ process
 	float:left;
 }
 
+
+/* 初期ナビ削除　2013/08/26 */
 /*
 nav ul{
 	overflow:hidden;
