@@ -150,7 +150,7 @@ title
 .title{
 	width:100%;
     color : #ffffff;
-	background-color: #446845;
+	background-color:#66cc99;
 	overflow: hidden;
 	padding: 5px;
 	margin-top: 40px;
@@ -224,19 +224,19 @@ photo
 	height: 20px;
 	margin: 20px auto;
 	padding: 10px;
-	background-color: #446845;
+	background-color: #99cc99;
 	text-align: center;
 	color: #fff;
 	font-weight: bold;
 	font-size: large;
 	text-shadow: 0px 3px 1px #;
-	box-shadow: 0px 5px 1px #40be5e;
-	border: 2px solid #40be5e;
+	box-shadow: 0px 5px 1px #336633;
+	border: 2px solid #336633;
 	-webkit-border-radius: 6px;
 }
 
 .cookedBg_on {
-	box-shadow: 0px 0px 1px #40be5e;
+	box-shadow: 0px 0px 1px #336633;
 }
 
 #cooked a {
@@ -296,7 +296,7 @@ deta（time kcal money
 
 strong{
 	font-size:x-large;
-    color:#40be5e;
+    color:#cc6600;
     font-weight: bold;
 	margin:0 1px;
 /*--
@@ -335,7 +335,7 @@ material
     border-right:solid 1px #CCC;
 }
 .material th {
-    background:#446845;
+    background:#cc6600;
     color:#ffffff;
     -webkit-border-radius: 10px 0 0 0;
        -moz-border-radius: 10px 0 0 0;
