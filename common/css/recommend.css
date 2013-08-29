@@ -31,9 +31,15 @@ li{list-style:none;}
 
 body{
 	width: 100%;
-    background:#F0F0F0;
+	height:640px;
     background-position:center top;
     background-repeat:repeat;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #f2f5f6), color-stop(0.00, #f6f8f9));
+background: -webkit-linear-gradient(top, #f6f8f9 0%, #f2f5f6 100%);
+background: -moz-linear-gradient(top, #f6f8f9 0%, #f2f5f6 100%);
+background: -o-linear-gradient(top, #f6f8f9 0%, #f2f5f6 100%);
+background: -ms-linear-gradient(top, #f6f8f9 0%, #f2f5f6 100%);
+background: linear-gradient(top, #f6f8f9 0%, #f2f5f6 100%);
 }
 
 #bodyInner {
@@ -69,7 +75,12 @@ section#all{
 	left:0;
 	width: 100%;
 	overflow: hidden;
-	background-color:#37B54C;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #5def86), color-stop(0.00, #2cce50));
+background: -webkit-linear-gradient(top, #2cce50 0%, #5def86 100%);
+background: -moz-linear-gradient(top, #2cce50 0%, #5def86 100%);
+background: -o-linear-gradient(top, #2cce50 0%, #5def86 100%);
+background: -ms-linear-gradient(top, #2cce50 0%, #5def86 100%);
+background: linear-gradient(top, #2cce50 0%, #5def86 100%);
     background-image:/*url(../img/bgwood.png)*/;
 	text-align:center;
 	color: white;
