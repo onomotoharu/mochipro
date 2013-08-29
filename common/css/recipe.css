@@ -16,7 +16,7 @@ header,footer,nav,section{
 	font-size:1rem;
 	font-weight:normal;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	color: #600;
+	color: #50504a;
 }
 
 header,footer,nav{display:block;}
@@ -30,7 +30,8 @@ li{list-style:none;}
 
 
 body{
-    background-image:url(../img/bgwood.png);
+/*     background-image:url(../img/bgwood.png); */
+	background-color: #f3f3f3;
     background-position:center top;
     background-repeat:repeat;
     background-size:320px,568px;
@@ -142,19 +143,20 @@ header(nav + serviseTitle)
 	font-size: 27px;
 }
 
+
 /*----------------------------------------
 title
 ----------------------------------------*/
 .title{
 	width:100%;
     color : #ffffff;
-	background-color: #3cb371;
+	background-color: #446845;
 	overflow: hidden;
 	padding: 5px;
 	margin-top: 40px;
-		box-shadow: 0px 1px 5px #000; /*CSS3*/
-	-moz-box-shadow: 0px 1px 5px #000; /* Firefox用*/
-	-webkit-box-shadow: 0px 1px 5px #000; /* Google Chrome, Safari用*/
+		box-shadow: 0px 1px 1px #000; /*CSS3*/
+	-moz-box-shadow: 0px 1px 1px #000; /* Firefox用*/
+	-webkit-box-shadow: 0px 1px 1px #000; /* Google Chrome, Safari用*/
 
 
 }
@@ -171,7 +173,7 @@ title
 }
 
 .fav{
-	width:10%;
+	width:3%;
 	float:left;
 	font-size: medium;
 	color: #ccc;
@@ -212,7 +214,7 @@ photo
 #cooked {
 	width: 120px;
 	height: 20px;
-	margin: 20px auto;
+	margin: 20px auto 40px auto;
 	padding: 10px;
 	display: block;
 }
@@ -222,19 +224,19 @@ photo
 	height: 20px;
 	margin: 20px auto;
 	padding: 10px;
-	background-color: #E880A2;
+	background-color: #446845;
 	text-align: center;
 	color: #fff;
 	font-weight: bold;
 	font-size: large;
-	text-shadow: 0px 3px 1px #C27191;
-	box-shadow: 0px 5px 1px #C27191;
-	border: 2px solid #C27191;
+	text-shadow: 0px 3px 1px #;
+	box-shadow: 0px 5px 1px #40be5e;
+	border: 2px solid #40be5e;
 	-webkit-border-radius: 6px;
 }
 
 .cookedBg_on {
-	box-shadow: 0px 0px 1px #C27191;
+	box-shadow: 0px 0px 1px #40be5e;
 }
 
 #cooked a {
@@ -271,7 +273,7 @@ deta（time kcal money
 	margin:0 auto;
 	padding-bottom:2px;
 	overflow: hidden;
-	border-bottom: dashed 2px #3cb371;
+	border-bottom: dashed 2px #cecec8;
 	text-align:center;
 }
 
@@ -294,7 +296,7 @@ deta（time kcal money
 
 strong{
 	font-size:x-large;
-    color:#3cb371;
+    color:#40be5e;
     font-weight: bold;
 	margin:0 1px;
 /*--
@@ -323,7 +325,7 @@ material
 	background:#fff;
 }
 .material tr:nth-child(odd){
-	background:#eee;
+	background:#f3f3f3;
 }
 
 .material th,
@@ -333,12 +335,13 @@ material
     border-right:solid 1px #CCC;
 }
 .material th {
-    background:#e3dcd5;
-    color:#69655c;
+    background:#446845;
+    color:#ffffff;
     -webkit-border-radius: 10px 0 0 0;
        -moz-border-radius: 10px 0 0 0;
          -o-border-radius: 10px 0 0 0;
             border-radius: 10px 0 0 0;
+	border: solid 1px #446845;
 }
 
 
@@ -357,10 +360,10 @@ material
 ----------------------- */
 .material tr:first-child th:last-child,
 .material tr:first-child td:last-child {
-    -webkit-border-radius: 0 10px 0 0;
-       -moz-border-radius: 0 10px 0 0;
-         -o-border-radius: 0 10px 0 0;
-            border-radius: 0 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+       -moz-border-radius: 10px 10px 0 0;
+         -o-border-radius: 10px 10px 0 0;
+            border-radius: 10px 10px 0 0;
 }
 /* -----------------------
   左下角丸　最後の行の最初のセル
@@ -393,7 +396,7 @@ process
 	width: 90%;
 	overflow: hidden;
 	margin: 0px auto;
-	border-top: solid 2px #3cb371;
+	border-top: solid 2px #40be5e;
 	padding: 10px 0 10px 0;
 	background-color: rgba(255,255,255,0.5);
 	line-height: 200%;
@@ -401,7 +404,7 @@ process
 
 .number{
 	font-size:42px;
-    color:#3cb371;
+    color:#40be5e;
 	opacity: 0.70;
 	filter: alpha(opacity=70);
 	-moz-opacity: 0.70;
@@ -414,13 +417,14 @@ process
 
 .pro_text{
 	width: 80%;
-	margin: -30px 0 10px 42px;
+	margin: 0 0 10px 42px;
 	float:left;
+	color: #50504a;
 }
 
 
 
-/* メニュー
+/* めにゅー
 --------------------*/
 
 #nav{
@@ -431,7 +435,8 @@ process
 	width: 100%;
 	overflow: hidden;
 	background-color: #B38355;
-    background-image:url(../img/bgwood.png);
+    background-image:url(../img/bgwood.pn);
+	background-color: #446845;
     background-size:320px,568px;
 	text-align:center;
 	color: white;
@@ -446,13 +451,10 @@ process
 	width:2px;
 	height: 20px;
 	margin: 7px 0;
-	background-color:#e2aa72;
+	background-color:#50504a;
 	float:left;
 }
 
-
-/* 初期ナビ削除　2013/08/26 */
-/*
 nav ul{
 	overflow:hidden;
     height:30px;
@@ -480,5 +482,4 @@ nav ul li:last-child a{
 	padding: 4px 0 4px 0;
 
 }
-*/
     
