@@ -16,7 +16,7 @@ header,footer,nav,section{
 	font-size:1rem;
 	font-weight:normal;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	color: #600;
+	color: #50504a;
 }
 
 header,footer,nav{display:block;}
@@ -102,7 +102,7 @@ title
 .title{
 	width:100%;
     color : #ffffff;
-	background-color: #cecec8;
+	background-color: #446845;
 	overflow: hidden;
 	padding: 5px;
 	margin-top: 40px;
@@ -277,7 +277,7 @@ material
 	background:#fff;
 }
 .material tr:nth-child(odd){
-	background:#eee;
+	background:#f3f3f3;
 }
 
 .material th,
@@ -287,12 +287,13 @@ material
     border-right:solid 1px #CCC;
 }
 .material th {
-    background:#cecec8;
-    color:#50504a;
+    background:#446845;
+    color:#ffffff;
     -webkit-border-radius: 10px 0 0 0;
        -moz-border-radius: 10px 0 0 0;
          -o-border-radius: 10px 0 0 0;
             border-radius: 10px 0 0 0;
+	border: solid 1px #446845;
 }
 
 
@@ -347,7 +348,7 @@ process
 	width: 90%;
 	overflow: hidden;
 	margin: 0px auto;
-	border-top: solid 2px #3cb371;
+	border-top: solid 2px #40be5e;
 	padding: 10px 0 10px 0;
 	background-color: rgba(255,255,255,0.5);
 	line-height: 200%;
@@ -355,7 +356,7 @@ process
 
 .number{
 	font-size:42px;
-    color:#3cb371;
+    color:#40be5e;
 	opacity: 0.70;
 	filter: alpha(opacity=70);
 	-moz-opacity: 0.70;
@@ -370,6 +371,7 @@ process
 	width: 80%;
 	margin: -30px 0 10px 42px;
 	float:left;
+	color: #50504a;
 }
 
 
