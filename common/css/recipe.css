@@ -158,14 +158,16 @@ title
 	overflow: hidden;
 	padding: 5px;
 	margin-top: 45px;
+	margin-left:5px;
 	
 }
 
 .recipename{
 	width:90%;
     	color : #600;
-   	font-size :large;
+   	font-size :x-large;
 	float:left;
+	
 }
 
 .fav{
@@ -192,15 +194,15 @@ photo
 	margin:10px auto;
 	padding: 10px;
 	background-color: #fff;
+	box-shadow: 0px 2px 5px #000; /*CSS3*/
+	-moz-box-shadow: 0px 2px 5px #000; /* Firefox用*/
+	-webkit-box-shadow: 0px 2px 5px #000; /* Google Chrome, Safari用*/
 }
 
 .photo img{
 	width: 100%;
 	text-align:center;
-	box-shadow: 0px 2px 5px #000; /*CSS3*/
-	-moz-box-shadow: 0px 2px 5px #000; /* Firefox用*/
-	-webkit-box-shadow: 0px 2px 5px #000; /* Google Chrome, Safari用*/
-
+	
 }
 
 /*----------------------------------------
@@ -395,6 +397,7 @@ process
 	padding: 10px 0 10px 0;
 	background-color: rgba(255,255,255,1);
 	line-height: 200%;
+	 
 }
 
 .number{
