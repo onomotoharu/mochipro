@@ -54,10 +54,14 @@ section#all {
 #header {
 	width: 92%;
 	height: 40px;
-	padding: 0 4%;
+	padding: 0 5%;
 	position: fixed;
 	top: 0px;
 	overflow: hidden;
+	background-color: #99CC66;
+	box-shadow: 0px 1px 5px #000; /*CSS3*/
+	-moz-box-shadow: 0px 1px 5px #000; /* Firefox用*/
+	-webkit-box-shadow: 0px 1px 5px #000; /* Google Chrome, Safari用*/
 }
 
 #header ul{
@@ -143,13 +147,17 @@ article span {
 }
 /* 各関連◯部分
 --------------------*/
+#p1{
+	width:200px;
+	float:left;
+	margin-top:5%;
+}
+
 .position1 {
 	width:200px;
-    margin-top:5%;
 	display:table-cell;
 	text-align:center;
 	position:fixed;
-	margin-left:-8%;
 	color:#F60;
 }
 
@@ -161,10 +169,13 @@ article span {
 }
 
 
+#p2{
+	width:200px;
+	float:right;
+	margin-top:5%;
+}
 .position2 {
     width:200px;
-    margin-top:5%;
-    margin-left:45%;
 	display:table-cell;
 	text-align:center;
 	position:fixed;
@@ -183,7 +194,6 @@ article span {
     display:table-cell;
 	text-align:center;
 	position:fixed;
-	margin-left:-8%;
 	color:#F69;
 }
 
@@ -196,7 +206,6 @@ article span {
 .position4 {
     width:200px;
     margin-top:65%;
-    margin-left:45%;
 	display:table-cell;
 	text-align:center;
 	position:fixed;
