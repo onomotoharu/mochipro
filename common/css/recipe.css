@@ -31,7 +31,11 @@ li{list-style:none;}
 
 body{
     background-image:url(../img/bgwood.pn);
+<<<<<<< HEAD
 	background-color: #fff5ee;
+=======
+	background-color: #fff1df;
+>>>>>>> master
     background-position:center top;
     background-repeat:repeat;
     background-size:320px,568px;
@@ -106,6 +110,11 @@ header(nav + serviseTitle)
 	position: fixed;
 	top: 0px;
 	overflow: hidden;
+	background-color:#69ba92;
+			box-shadow: 0px 1px 7px #000; /*CSS3*/
+	-moz-box-shadow: 0px 1px 7px #000; /* Firefox用*/
+	-webkit-box-shadow: 0px 1px 7px #000; /* Google Chrome, Safari用*/
+
 }
 
 #header ul{
@@ -150,6 +159,7 @@ title
 .title{
 	width:100%;
     color : #ffffff;
+<<<<<<< HEAD
 	background-color:#64d8a1;
 	overflow: hidden;
 	padding: 5px;
@@ -157,6 +167,12 @@ title
 	box-shadow: 0px 1px 1px #000; /*CSS3*/
 	-moz-box-shadow: 0px 1px 1px #000; /* Firefox用*/
 	-webkit-box-shadow: 0px 1px 1px #000; /* Google Chrome, Safari用*/
+=======
+	background-color:#eeeeee;
+	overflow: hidden;
+	padding: 5px;
+	margin-top: 40px;
+>>>>>>> master
 
 
 }
@@ -174,7 +190,7 @@ title
 }
 
 .fav{
-	width:10%;
+	width:3%;
 	float:left;
 	font-size: medium;
 	color: #ccc;
@@ -225,19 +241,32 @@ photo
 	height: 20px;
 	margin: 20px auto;
 	padding: 10px;
+<<<<<<< HEAD
 	background-color: #64d8a1;
+=======
+	background-color:#69ba92;
+>>>>>>> master
 	text-align: center;
 	color: #fff;
 	font-weight: bold;
 	font-size: large;
 	text-shadow: 0px 3px 1px #;
+<<<<<<< HEAD
 	box-shadow: 0px 5px 1px #0f7f53;
 	border: 2px solid #0f7f53;
+=======
+	box-shadow: 0px 5px 1px #337c5e;
+	border: 2px solid #337c5e;
+>>>>>>> master
 	-webkit-border-radius: 6px;
 }
 
 .cookedBg_on {
+<<<<<<< HEAD
 	box-shadow: 0px 0px 1px #0f7f53;
+=======
+	box-shadow: 0px 0px 1px #69ba92;
+>>>>>>> master
 }
 
 #cooked a {
@@ -297,7 +326,11 @@ deta（time kcal money
 
 strong{
 	font-size:x-large;
+<<<<<<< HEAD
     color:#0f7f53;
+=======
+    color:#337c5e;
+>>>>>>> master
     font-weight: bold;
 	margin:0 1px;
 /*--
@@ -336,7 +369,11 @@ material
     border-right:solid 1px #CCC;
 }
 .material th {
+<<<<<<< HEAD
     background:#0f7f53;
+=======
+    background:#337c5e;
+>>>>>>> master
     color:#ffffff;
     -webkit-border-radius: 10px 0 0 0;
        -moz-border-radius: 10px 0 0 0;
@@ -361,10 +398,10 @@ material
 ----------------------- */
 .material tr:first-child th:last-child,
 .material tr:first-child td:last-child {
-    -webkit-border-radius: 0 10px 0 0;
-       -moz-border-radius: 0 10px 0 0;
-         -o-border-radius: 0 10px 0 0;
-            border-radius: 0 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+       -moz-border-radius: 10px 10px 0 0;
+         -o-border-radius: 10px 10px 0 0;
+            border-radius: 10px 10px 0 0;
 }
 /* -----------------------
   左下角丸　最後の行の最初のセル
