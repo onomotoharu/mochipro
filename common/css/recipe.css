@@ -33,13 +33,6 @@ body{
     background-color:#FDF5E6;
     background-position:center top;
     background-repeat:repeat;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #FDF5E6), color-stop(0.00, #fde9c4));
-background: -webkit-linear-gradient(top, #fde9c4 0%, #FDF5E6 100%);
-background: -moz-linear-gradient(top, #fde9c4 0%, #FDF5E6 100%);
-background: -o-linear-gradient(top, #fde9c4 0%, #FDF5E6 100%);
-background: -ms-linear-gradient(top, #fde9c4 0%, #FDF5E6 100%);
-background: linear-gradient(top, #fde9c4 0%, #FDF5E6 100%);
-
 }
 
 
@@ -109,7 +102,7 @@ header(nav + serviseTitle)
 	height: 40px;
 	padding: 0 4%;
 	position: fixed;
-	background-color:#fdf5e6;
+	background-color:#99cc66;
 	border-bottom:solid 2px #99cc66;
 	top: 0px;
 	overflow: hidden;
@@ -156,7 +149,7 @@ title
 .title{
 	width:100%;
     color : #ffffff;
-	background-color: #99CC66;
+	background-color: #FDF5E6;
 	overflow: hidden;
 	padding: 5px;
 	margin-top: 40px;
