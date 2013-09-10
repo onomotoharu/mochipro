@@ -24,16 +24,13 @@ li {
 -----------------------*/
 
 body {
-	width: 100%;
-	height:640px;
 	background-position:center top;
 	background-repeat:repeat;
-	 background:#FDF5E6;
-    background-position:center top;
-    background-repeat:repeat;
-    background-size:320px,568px;
+	background:#FDF5E6;
+	background-position:center top;
+	background-repeat:repeat;
+	background-size:320px, 568px;
 }
-
 /* リンク色変更はここ */
 a {
 	color:none;
@@ -41,9 +38,10 @@ a {
 }
 /* 縦ライン */
 section#all {
-	position: relative;
 	width:100%;
-	max-width:640px;
+	height:100%;
+	position: relative;
+	overflow:hidden;
 }
 /*----------------------------------------
  全ページ共有ここから
@@ -52,42 +50,39 @@ section#all {
 --------------------*/
 
 #header {
-	width: 92%;
+	width:100%;
 	height: 40px;
-	padding: 0 4%;
+	padding: 0%;
 	position: fixed;
 	top: 0px;
 	overflow: hidden;
+	background-color:#99cc66;
+	box-shadow: 0px 1px 5px #000; /*CSS3*/
+	-moz-box-shadow: 0px 1px 5px #000; /* Firefox用*/
+	-webkit-box-shadow: 0px 1px 5px #000; /* Google Chrome, Safari用*/
 }
-
-#header ul{
+#header ul {
 	overflow:hidden;
 	height: 44px;
 }
-
-#header ul li{
+#header ul li {
 	text-align: center;
 	float: left;
 	width: 18%;
 }
-
-#header ul li a{
+#header ul li a {
 	display:block;
-	padding:0% ;
+	padding:0%;
 	text-align:center;
 }
-
-#header ul li:last-child a{
+#header ul li:last-child a {
 	border-right-color:#FFF;
 }
-
-#header ul img{
-    width:26px;
-    height:26px;
+#header ul img {
+	width:26px;
+	height:26px;
 	padding: 4px 0 4px 0;
-
 }
-
 #header ul li#logo {
 	width: 28%;
 	color:#600;
@@ -95,17 +90,17 @@ section#all {
 	font-weight: bold;
 	font-size: 27px;
 }
-
-
 /* メイン
 --------------------*/
-.content {
-	margin-top: 30px;
+section.content {
+	padding-top:50px;
 	width:100%;
+	height:100%;
 	color:#3cb371;
 	padding:auto;
-	-webkit-overflow-scrolling: touch;
 	font-size:16px;
+	float:left;
+	position:fixed;
 }
 a.border {
 	margin:auto;
@@ -116,7 +111,6 @@ a.border {
 	-webkit-border-radius: 100%;
 	width: 100px;
 	height: 100px;
-	position: relative;
 	box-shadow: 0px 0px 10px -2px rgba(0,0,0, 0.8);
 */ 	background-position: center center;
 	background-repeat: no-repeat;
@@ -131,7 +125,6 @@ a.mainborder {
 	-webkit-border-radius: 10%;
 	width: 120px;
 	height:80px;
-	position: relative;
 	box-shadow: 0px 0px 10px -2px rgba(0,0,0, 0.8);
 */ 	background-position: center center;
 	background-repeat: no-repeat;
@@ -141,89 +134,99 @@ article span {
 	width:100%;
 	float:left;
 }
+
 /* 各関連◯部分
 --------------------*/
+#icon {
+	width:100%;
+	margin:0 0 -5% 0;
+}
+#p1 {
+	width:50%;
+	height:33%;
+	float:left;
+}
 .position1 {
-	width:200px;
-    margin-top:5%;
+	width:50%;
 	display:table-cell;
 	text-align:center;
-	position:fixed;
-	margin-left:-8%;
 	color:#F60;
 }
 
-.position1 a.border{
-    margin-left :auto;
-    margin-right : auto;
+.position1 a.border {
 	border:solid 5px rgba(255,102,0,0.6);
-
 }
-
-
+.position1 img {
+	height:40px;
+}
+#p2 {
+	width:50%;
+	height:33%;
+	float:right;
+}
 .position2 {
-    width:200px;
-    margin-top:5%;
-    margin-left:45%;
+	width:50%;
 	display:table-cell;
 	text-align:center;
-	position:fixed;
 	color:#f00;
 }
-
-.position2 a.border{
-    margin-left :auto;
-    margin-right : auto;
+.position2 a.border {
 	border:solid 5px rgba(255,0,0,0.6);
 }
-
+.position2 img {
+	height:40px;
+}
+#p3 {
+	width:50%;
+	height:33%;
+	float:left;
+}
 .position3 {
-    width:200px;
-    margin-top:65%;
-    display:table-cell;
-	text-align:center;
-	position:fixed;
-	margin-left:-8%;
-	color:#F69;
-}
-
-.position3 a.border{
-    margin-left :auto;
-    margin-right : auto;
-	border:solid 5px rgba(255,102,153,0.6);
-}
-
-.position4 {
-    width:200px;
-    margin-top:65%;
-    margin-left:45%;
+	width:50%;
 	display:table-cell;
 	text-align:center;
-	position:fixed;
-	color:#960;
-	font-weight: 900;
-
+	color:#F69;
 }
-
-.position4 a.border{
-	border:solid 5px rgba(255,204,0,0.6);
-    margin-left :auto;
-    margin-right :auto;
+.position3 a.border {
+	border:solid 5px rgba(255,102,153,0.6);
 }
-
-.main {
-    width:200px;
-    height:35%;
-    margin-top:40%;
-    margin-left:18%;
-    display:table-cell;
+.position3 img {
+	height:40px;
+}
+#p4 {
+	width:50%;
+	height:33%;
+	float:right;
+}
+.position4 {
+	width:50%;
+	display:table-cell;
 	text-align:center;
-	position:fixed;
+	color:#960;
+}
+.position4 a.border {
+	border:solid 5px rgba(255,204,0,0.6);
+	
+}
+.position4 img {
+	height:40px;
+}
+#p0 {
+	width:100%;
+	height:33%;
+	float:left;
+	margin-top:-5%;
+	margin-bottom:-5%;
+}
+article.main {
+	width:50％;
+	display:table-cell;
+	text-align:center;
 	color:#3cb371;
 }
-.main a.mainborder{
-	
+.main a.mainborder {
 	border:solid 5px rgba(153,204,102,0.8);
-    margin-left :auto;
-    margin-right : auto;
+}
+.main img {
+	height:40px;
 }
