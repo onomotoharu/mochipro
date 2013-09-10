@@ -4,7 +4,7 @@
 
 .dl-menuwrapper {
 	width: 100%;
-	max-width: 100px;
+	max-width: 110px;
 	float: right;
 	position: relative;
 	-webkit-perspective: 1000px;
@@ -21,8 +21,9 @@
 
 .dl-menuwrapper button {
 	background: #99cc66;
+	margin-left:20px; 
 	border: none;
-	width: 50px;
+	width: 60px;
 	height: 34px;
 	text-indent: -500em;
 	overflow: hidden;
@@ -40,7 +41,7 @@
 .dl-menuwrapper button:after {
 	content: '';
 	position: absolute;
-	width: 68%;
+	width: 60%;
 	height: 4px;
 	background: #fff;
 	top: 5px;
@@ -60,17 +61,45 @@
 
 .dl-menuwrapper li {
 	position: relative;
+	
 }
 
 .dl-menuwrapper li a {
 	display: block;
 	position: relative;
-	padding: 15px 20px;
-	font-size: 16px;
-	line-height: 20px;
-	font-weight: 300;
+	padding: 10px 5px;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: 100;
 	color: #fff;
 	outline: none;
+	border-bottom:solid #090 1px;
+	
+	
+}
+
+.dl-menuwrapper li.recommend{
+background:url(../img/icon_reco_on.png) no-repeat;
+	background-size:40px;
+	background-position:90% 50%;
+}
+
+.dl-menuwrapper li.active{
+background:url(../img/icon_act_on.png) no-repeat;
+	background-size:40px;
+	background-position:90% 50%;
+}
+
+.dl-menuwrapper li.mypage{
+background:url(../img/icon_my_on.png) no-repeat;
+	background-size:40px;
+	background-position:90% 50%;
+}
+
+.dl-menuwrapper li.set{
+background:url(../img/icon_set_on.png) no-repeat;
+	background-size:40px;
+	background-position:90% 50%;
 }
 
 .no-touch .dl-menuwrapper li a:hover {
