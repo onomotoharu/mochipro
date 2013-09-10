@@ -418,12 +418,12 @@ process
 
 .number{
 	font-size:42px;
-    color:#276E38;
+    	color:#276E38;
 	opacity: 0.70;
 	filter: alpha(opacity=70);
 	-moz-opacity: 0.70;
 	-ms-filter: "alpha(opacity=70)";
-    font-weight: bold;
+    	font-weight: bold;
 	padding: 5px;
 	width: 10px;
 	float:left;
