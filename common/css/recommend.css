@@ -230,3 +230,28 @@ article.main {
 .main img {
 	height:40px;
 }
+
+/*----------------------
+		kakolog
+----------------------*/
+
+.viewport {
+    width: 88%;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-transform: translateZ(0); /* Optional: When heavy at iOS6+ */
+}
+
+.flipsnap {
+    width: 960px; /* 320px(item width) * 3(item count) */
+}
+
+.item {
+	float: left;
+	width: 22%;
+	height: 90px;
+	font-size: 50px;
+	text-align: center;
+	padding: 50px 0;
+	color: #666;
+}
