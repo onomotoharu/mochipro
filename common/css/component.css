@@ -41,8 +41,8 @@
 .dl-menuwrapper button:after {
 	content: '';
 	position: absolute;
-	width: 60%;
-	height: 4px;
+	width: 70%;
+	height: 3px;
 	background: #fff;
 	top: 5px;
 	left: 16%;
