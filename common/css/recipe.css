@@ -280,6 +280,11 @@ deta（time kcal money
 	float:left;
 }
 
+.time img{
+	width:23px;
+	height:23px;
+}
+
 .kcal{
 	width: 40%;
 	float:left;
@@ -287,9 +292,19 @@ deta（time kcal money
 	border-right: solid 2px #999;
 }
 
+.kcal img{
+	width:23px;
+	height:23px;
+}
+
 .yen{
 	width: 30%;
 	float:left;
+}
+
+.yen img{
+	width:23px;
+	height:23px;
 }
 
 strong{
