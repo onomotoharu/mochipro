@@ -7,9 +7,9 @@
 <title>recipeace</title>
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
 <link rel="stylesheet" type="text/css" href="../common/css/recommend.css" media="screen">
-<script type="text/javascript">
-
-</script>
+<link rel="stylesheet" type="text/css" href="../common/css/default.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/component.css" />
+<script src="../common/js/modernizr.custom.js"></script>
 </head>
 
 <body>
@@ -20,7 +20,14 @@
   <section id="all"> 
     
     <!-- ヘッダここから -->
+    <div id="head">
+      <ul>
+        <li id="logo">戻る</li>
+        <li id="logo">omochi</li>
+      </ul>
+    </div>
     
+    <!--
     <nav id="header" name="nav">
 	<ul>
 		<li><a href="recommend.html"><img src="../common/img/icon_reco_on.png" border="0" onmouseover="this.src='../common/img/icon_reco.png'" onmouseout="this.src='../common/img/icon_reco_on.png'" /></a></li>
@@ -30,6 +37,7 @@
 		<li><a href="index.html"><img src="../common/img/icon_set_on.png" border="0" onmouseover="this.src='../common/img/icon_set.png'" onmouseout="this.src='../common/img/icon_set_on.png'" /></a></li>
     </ul>
 </nav>
+--> 
     
     <!-- /ヘッダここまで --> 
     
@@ -39,44 +47,71 @@
       
       <!--左上の◯-->
       <div id = "p1">
-      <article class="position1"><div id ="icon"><img src="../omochi/img/shokuzai.png" class="icon"></div><a href="#l" class="border" style="background-image: url('img/meat.jpg')"></a><span>食材</span>
-      </article>
+        <article class="position1">
+          <div id ="icon"><img src="../omochi/img/shokuzai.png" class="icon"></div>
+          <a href="#l" class="border" style="background-image: url('img/meat.jpg')"></a><span>食材</span> </article>
       </div>
       <!--左上の◯ここまで--> 
       
       <!--右上の◯-->
       <div id = "p2">
-      <article class="position2"><div id ="icon"><img src="../omochi/img/time.png" class="icon"></div> <a href="#l" class="border" style="background-image: url('img/meat.jpg')"> </a><span>時間</span> </article>
+        <article class="position2">
+          <div id ="icon"><img src="../omochi/img/time.png" class="icon"></div>
+          <a href="#l" class="border" style="background-image: url('img/meat.jpg')"> </a><span>時間</span> </article>
       </div>
       <!--右上の◯ここまで--> 
       
       <!--真ん中の◯-->
       <div id = "p0">
-      <center>
-      <article class="main"><div id ="icon"><img src="../omochi/img/main.png" class="icon"></div><a href="#l" class="mainborder" style="background-image: url('img/meat.jpg')"> </a><span>メイン</span> </article>
-       </center>
+        <center>
+          <article class="main">
+            <div id ="icon"><img src="../omochi/img/main.png" class="icon"></div>
+            <a href="#l" class="mainborder" style="background-image: url('img/meat.jpg')"> </a><span>メイン</span> </article>
+        </center>
       </div>
       <!--真ん中の◯ここまで--> 
       
       <!--左下の◯-->
       <div id = "p3">
-      <article class="position3"><div id ="icon"> <img src="../omochi/img/taste.png" class="icon"></div><a href="#l" class="border" style="background-image: url('img/meat.jpg')"> </a><span>味</span> </article>
+        <article class="position3">
+          <div id ="icon"> <img src="../omochi/img/taste.png" class="icon"></div>
+          <a href="#l" class="border" style="background-image: url('img/meat.jpg')"> </a><span>味</span> </article>
       </div>
       <!--左下の◯ここまで--> 
       
       <!--右下の◯-->
       <div id = "p4">
-      <article class="position4"><div id ="icon"> <img src="../omochi/img/money.png" class="icon"></div><a href="#l" class="border" style="background-image: url('img/meat.jpg')"> </a><span>金額</span> </article>
+        <article class="position4">
+          <div id ="icon"> <img src="../omochi/img/money.png" class="icon"></div>
+          <a href="#l" class="border" style="background-image: url('img/meat.jpg')"> </a><span>金額</span> </article>
       </div>
+      
       <!--右下の◯ここまで--> 
       
       <!-- /関連図ここまで --> 
     </section>
   </section>
+  <div id="dl-menu" class="dl-menuwrapper">
+    <button class="dl-trigger">Open Menu</button>
+    <ul class="dl-menu">
+      <li> <a href="#">Fashion</a> </li>
+      <li> <a href="#">Electronics</a> </li>
+    </ul>
+  </div>
+  <!-- /dl-menuwrapper --> 
+  
   <!-- /全体ここまで --> 
   
 </div>
-<!-- /.bodyInner -->
-
+<!-- /.bodyInner --> 
+<script src="../common/js/v1.9.1.jquery.min.js"></script> 
+<script src="../common/js/jquery.dlmenu.js"></script> 
+<script>
+  $(function() {
+				$( '#dl-menu' ).dlmenu({
+					animationClasses : { classin : 'dl-animate-in-3', classout : 'dl-animate-out-3' }
+				});
+			});
+</script>
 </body>
 </html>
