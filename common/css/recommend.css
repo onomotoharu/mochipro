@@ -4,32 +4,25 @@
 /*----------------------
     デフォルトスタイル
 -----------------------*/
-body,p,h1,h2,h3,h4,h5,h6,
-span,small,strong,
-div,ul,li,
-figure,img,
-header,footer,nav,section{
-    margin:0;
-    padding:0;
+body, p, h1, h2, h3, h4, h5, h6, span, small, strong, div, ul, li, figure, img, header, footer, nav, section {
+	margin:0;
+	padding:0;
 	border:none;
 	outline:none;
 	font-weight:normal;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-
 }
-
-
-html{
+html {
 	font:13px/1.3 "ヒラギノ角ゴ Pro W3";
-	-webkit-text-size-adjust:none;}
-
-li{list-style:none;}
-
+	-webkit-text-size-adjust:none;
+}
+li {
+	list-style:none;
+}
 /*----------------------
 	基本レイアウト
 -----------------------*/
 
-<<<<<<< HEAD
 body {
 	background-position:center top;
 	background-repeat:repeat;
@@ -37,54 +30,24 @@ body {
 	background-position:center top;
 	background-repeat:repeat;
 	background-size:320px, 568px;
-=======
-body{
-	width: 100%;
-	height:640px;
-    background-position:center top;
-    background-repeat:repeat;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #f2f5f6), color-stop(0.00, #f6f8f9));
-background: -webkit-linear-gradient(top, #f6f8f9 0%, #f2f5f6 100%);
-background: -moz-linear-gradient(top, #f6f8f9 0%, #f2f5f6 100%);
-background: -o-linear-gradient(top, #f6f8f9 0%, #f2f5f6 100%);
-background: -ms-linear-gradient(top, #f6f8f9 0%, #f2f5f6 100%);
-background: linear-gradient(top, #f6f8f9 0%, #f2f5f6 100%);
-}
-
-#bodyInner {
-  width: 100%;
-  position: relative;
-    background-position:center top;
-    background-repeat:repeat;
-	
->>>>>>> tomomi
 }
 /* リンク色変更はここ */
-a{
-	color:#E94E77;
+a {
+	color:none;
 	text-decoration:none;
 }
-
 /* 縦ライン */
-<<<<<<< HEAD
 section#all {
-=======
-section#all{
-    position: relative;
->>>>>>> tomomi
 	width:100%;
 	height:100%;
 	position: relative;
     overflow:hidden;
 }
-
-
 /*----------------------------------------
  全ページ共有ここから
 ----------------------------------------*/
 /* ヘッダ部分
 --------------------*/
-<<<<<<< HEAD
 #head {
 	width:100%;
 	height: 34px;
@@ -150,59 +113,10 @@ section#all{
 	width: 18%;
 }
 #header ul li a {
-=======
-#nav{
-	position:fixed;
-	top:0px;
-	height: 40px;
-	left:0;
-	width: 100%;
-	overflow: hidden;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #5def86), color-stop(0.00, #2cce50));
-background: -webkit-linear-gradient(top, #2cce50 0%, #5def86 100%);
-background: -moz-linear-gradient(top, #2cce50 0%, #5def86 100%);
-background: -o-linear-gradient(top, #2cce50 0%, #5def86 100%);
-background: -ms-linear-gradient(top, #2cce50 0%, #5def86 100%);
-background: linear-gradient(top, #2cce50 0%, #5def86 100%);
-
-
-
-    background-image:/*url(../img/bgwood.png)*/;
-	text-align:center;
-	color: white;
-	float:left;
-	box-shadow: 0px 2px 5px #000; /*CSS3*/
-	-moz-box-shadow: 0px 2px 5px #000; /* Firefox用*/
-	-webkit-box-shadow: 0px 2px 5px #000; /* Google Chrome, Safari用*/
-
-}
-
-.bar{
-	width:2px;
-	height: 20px;
-	margin: 7px 0;
-	background-color:#e2aa72;
-	float:left;
-}
-
-nav ul{
-	overflow:hidden;
-    height:57px;
-}
-
-nav ul li{
-	width:24%;
-	text-align:center;
-	float:left;
-	}
-
-nav ul li a{
->>>>>>> tomomi
 	display:block;
 	padding:0%;
 	text-align:center;
 }
-<<<<<<< HEAD
 #header ul li:last-child a {
 	border-right-color:#FFF;
 }
@@ -219,57 +133,24 @@ nav ul li a{
 	font-size: 27px;
 }
 /* 
-=======
-
-a.current{
-	border-bottom: solid 6px #B34811;
-	}
-
-
-nav ul li:last-child a{
-	border-right-color:#FFF;
-}
-
-#nav ul img{
-    width:26px;
-    height:26px;
-	padding: 4px 0 2px 0;
-
-
-}
-    
->>>>>>> tomomi
 
 
 /* メイン
 --------------------*/
-<<<<<<< HEAD
 section.content {
 	padding-top:50px;
 	width:100%;
 	height:100%;
 	color:#3cb371;
 	padding:auto;
-=======
-.content{
-	margin-top: 30px;
-    width:100%;
-    color:#3cb371;
-	padding:auto;
-    -webkit-overflow-scrolling: touch;
->>>>>>> tomomi
 	font-size:16px;
 	float:left;
 	position:fixed;
 }
-
-
-
 a.border {
-    margin:auto;
-    text-align :left;
+	margin:auto;
+	text-align :left;
 	display: inline-block;
-<<<<<<< HEAD
 	border-radius:50%;
 	-moz-border-radius: 100%;
 	-webkit-border-radius: 100%;
@@ -278,52 +159,26 @@ a.border {
 	box-shadow: 0px 0px 10px -2px rgba(0,0,0, 0.8);
 */ 	background-position: center center;
 	background-repeat: no-repeat;
-=======
-     border-radius:50%;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    width: 100px;
-    height: 100px;
-    position: relative;
-    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
-	background-position: center center;
-    background-repeat: no-repeat;
->>>>>>> tomomi
 	background-size: cover;
 }
-
 a.mainborder {
-    margin:auto;
-    text-align :left;
+	margin:auto;
+	text-align :left;
 	display: inline-block;
-     border-radius:10%;
-    -moz-border-radius: 10%;
-    -webkit-border-radius: 10%;
-    width: 120px;
+	border-radius:10%;
+	-moz-border-radius: 10%;
+	-webkit-border-radius: 10%;
+	width: 120px;
 	height:80px;
-<<<<<<< HEAD
 	box-shadow: 0px 0px 10px -2px rgba(0,0,0, 0.8);
 */ 	background-position: center center;
 	background-repeat: no-repeat;
-=======
-    position: relative;
-    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
-	background-position: center center;
-    background-repeat: no-repeat;
->>>>>>> tomomi
 	background-size: cover;
 }
-
-
 article span {
-    width:100%;
+	width:100%;
 	float:left;
-    
 }
-
-
-
-
 /* 各関連◯部分
 --------------------*/
 #icon {
@@ -339,23 +194,10 @@ article span {
 	width:50%;
 	display:table-cell;
 	text-align:center;
-<<<<<<< HEAD
 	color:#F60;
 }
 .position1 a.border {
 	border:solid 5px rgba(255,102,0,0.6);
-=======
-	position:fixed;
-	margin-left:-8%;
-	color:#3cb371/*#F60*/;
-}
-
-.position1 a.border{
-    margin-left :auto;
-    margin-right : auto;
-	border:solid 5px rgba(60,179,7,0.6)/*#37B54C*/ /*rgba(255,102,0,0.6)*/;
-
->>>>>>> tomomi
 }
 .position1 img {
 	height:40px;
@@ -369,21 +211,10 @@ article span {
 	width:50%;
 	display:table-cell;
 	text-align:center;
-<<<<<<< HEAD
 	color:#f00;
 }
 .position2 a.border {
 	border:solid 5px rgba(255,0,0,0.6);
-=======
-	position:fixed;
-	color:#3cb371/*#f00*/;
-}
-
-.position2 a.border{
-    margin-left :auto;
-    margin-right : auto;
-	border:solid 5px rgba(60,179,7,0.6)/*#37B54C*/ /*rgba(255,0,0,0.6)*/;
->>>>>>> tomomi
 }
 .position2 img {
 	height:40px;
@@ -397,22 +228,10 @@ article span {
 	width:50%;
 	display:table-cell;
 	text-align:center;
-<<<<<<< HEAD
 	color:#F69;
 }
 .position3 a.border {
 	border:solid 5px rgba(255,102,153,0.6);
-=======
-	position:fixed;
-	margin-left:-8%;
-	color:#3cb371/*#F69*/;
-}
-
-.position3 a.border{
-    margin-left :auto;
-    margin-right : auto;
-	border:solid 5px rgba(60,179,7,0.6)/*#37B54C*/ /*rgba(255,102,153,0.6)*/;
->>>>>>> tomomi
 }
 .position3 img {
 	height:40px;
@@ -426,23 +245,10 @@ article span {
 	width:50%;
 	display:table-cell;
 	text-align:center;
-<<<<<<< HEAD
 	color:#960;
 }
 .position4 a.border {
 	border:solid 5px rgba(255,204,0,0.6);
-=======
-	position:fixed;
-	color:#3cb371/*#960*/;
-	font-weight: 900;
-
-}
-
-.position4 a.border{
-	border:solid 5px rgba(60,179,7,0.6)/*#37B54C*/ /*rgba(255,204,0,0.6)*/ ;
-    margin-left :auto;
-    margin-right :auto;
->>>>>>> tomomi
 }
 .position4 img {
 	height:40px;
@@ -460,22 +266,9 @@ article.main {
 	text-align:center;
 	color:#3cb371;
 }
-<<<<<<< HEAD
 .main a.mainborder {
 	border:solid 5px rgba(153,204,102,0.8);
 }
 .main img {
 	height:40px;
 }
-=======
-.main a.mainborder{
-	
-	border:solid 5px rgba(60,179,7,0.6)/*#37B54C*/ /*rgba(60,179,7,0.6)*/;
-    margin-left :auto;
-    margin-right : auto;
-}
-
-
-
-
->>>>>>> tomomi
