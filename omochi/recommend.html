@@ -10,6 +10,10 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="../common/js/flipsnap.js"></script>
 <script type="text/javascript" src="../common/js/kakolog.js"></script>
+<link rel="stylesheet" type="text/css" href="../common/css/recommend.css" media="screen">
+<link rel="stylesheet" type="text/css" href="../common/css/default.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/component.css" />
+<script src="../common/js/modernizr.custom.js"></script>
 </head>
 
 <body>
@@ -83,48 +87,33 @@
 	        <a href=""><div class="item" id="kakolog03"></div></a>
 	    </div>
 	</div>
-      
-      <!--
-<div class="viewport">
-          <div class="flipsnap">
-              <div class="item">
-                <div id = "p0">
-                  <center>
-                  <article class="main">
-                    <a href="#l" class="mainborder" style="background-image: url('img/meat.jpg')"></a>
-                  </article>
-                  </center>
-                </div>
-              </div>
-              <div class="item">
-                <div id = "p0">
-                  <center>
-                  <article class="main">
-                    <a href="#l" class="mainborder" style="background-image: url('img/meat.jpg')"></a>
-                  </article>
-                  </center>
-                </div>
-              </div>
-              <div class="item">
-                <div id = "p0">
-                  <center>
-                  <article class="main">
-                    <a href="#l" class="mainborder" style="background-image: url('img/meat.jpg')"></a>
-                  </article>
-                  </center>
-                </div>
-              </div>
-          </div>
-      </div>
--->
-      
+	 
       <!-- /関連図ここまで --> 
     </section>
   </section>
+  <div id="dl-menu" class="dl-menuwrapper">
+    <button class="dl-trigger">Open Menu</button>
+    <ul class="dl-menu">
+      <li class="recommend"> <a href="#">関連図</a> </li>
+      <li class="active"> <a href="#">アクティビティ</a> </li>
+      <li class="mypage"> <a href="#">マイページ</a> </li>
+      <li class="set"> <a href="#">設定</a> </li>
+    </ul>
+  </div>
+  <!-- /dl-menuwrapper --> 
+  
   <!-- /全体ここまで --> 
   
 </div>
-<!-- /.bodyInner -->
-
+<!-- /.bodyInner --> 
+<script src="../common/js/v1.9.1.jquery.min.js"></script> 
+<script src="../common/js/jquery.dlmenu.js"></script> 
+<script>
+  $(function() {
+				$( '#dl-menu' ).dlmenu({
+					animationClasses : { classin : 'dl-animate-in-3', classout : 'dl-animate-out-3' }
+				});
+			});
+</script>
 </body>
 </html>
