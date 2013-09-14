@@ -256,6 +256,7 @@ article.main {
 
 .viewport {
     width: 320px;
+    height: 100px;
     overflow: hidden;
     margin: 0 auto;
     -webkit-transform: translateZ(0); /* Optional: When heavy at iOS6+ */
@@ -273,6 +274,7 @@ article.main {
 	text-align: center;
 	background: #EFEFEF;
 	background-size: 320px;
+	background-position: center,center;
 }
 
 #kakolog01 {
