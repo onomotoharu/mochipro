@@ -41,26 +41,68 @@ section#all {
 	width:100%;
 	height:100%;
 	position: relative;
-	overflow:hidden;
+    overflow:hidden;
 }
 /*----------------------------------------
  全ページ共有ここから
 ----------------------------------------*/
 /* ヘッダ部分
 --------------------*/
-
-#header {
+#head {
 	width:100%;
-	height: 40px;
-	padding: 0%;
+	height: 34px;
 	position: fixed;
-	top: 0px;
-	overflow: hidden;
+	overflow:hidden;
 	background-color:#99cc66;
 	box-shadow: 0px 1px 5px #000; /*CSS3*/
 	-moz-box-shadow: 0px 1px 5px #000; /* Firefox用*/
 	-webkit-box-shadow: 0px 1px 5px #000; /* Google Chrome, Safari用*/
 }
+#head ul {
+	height: 44px;
+}
+#head ul li {
+	text-align: center;
+	float: left;
+	width: 33%;
+}
+#head ul li a {
+	display:block;
+	padding:0%;
+	text-align:center;
+}
+#head ul li:last-child a {
+	border-right-color:#FFF;
+}
+#head ul img {
+	width:26px;
+	height:26px;
+	padding: 5px 0 5px 0;
+}
+#head ul li#logo {
+	width: 33%;
+	color:#600;
+	line-height: 34px;
+	font-weight: bold;
+	font-size: 27px;
+}
+
+/* ナビゲーション部分
+--------------------*/
+/*
+#header {
+	width:100%;
+	height: 34px;
+	padding: 0%;
+	position: fixed;
+	top: 0px;
+	overflow: hidden;
+	background-color:#99cc66;
+	box-shadow: 0px 1px 5px #000;
+	-moz-box-shadow: 0px 1px 5px #000; 
+	-webkit-box-shadow: 0px 1px 5px #000; /* Google Chrome, Safari用
+}
+
 #header ul {
 	overflow:hidden;
 	height: 44px;
@@ -81,7 +123,7 @@ section#all {
 #header ul img {
 	width:26px;
 	height:26px;
-	padding: 4px 0 4px 0;
+	padding: 5px 0 5px 0;
 }
 #header ul li#logo {
 	width: 28%;
@@ -90,6 +132,9 @@ section#all {
 	font-weight: bold;
 	font-size: 27px;
 }
+/* 
+
+
 /* メイン
 --------------------*/
 section.content {
@@ -134,7 +179,6 @@ article span {
 	width:100%;
 	float:left;
 }
-
 /* 各関連◯部分
 --------------------*/
 #icon {
@@ -165,7 +209,6 @@ article span {
 	text-align:center;
 	color:#F60;
 }
-
 .position1 a.border {
 	border:solid 5px rgba(255,102,0,0.6);
 }
@@ -225,7 +268,6 @@ article span {
 }
 .position4 a.border {
 	border:solid 5px rgba(255,204,0,0.6);
-	
 }
 .position4 img {
 	height:40px;
