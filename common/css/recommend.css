@@ -87,58 +87,10 @@ section#all {
 	font-size: 27px;
 }
 
-/* ナビゲーション部分
---------------------*/
-/*
-#header {
-	width:100%;
-	height: 34px;
-	padding: 0%;
-	position: fixed;
-	top: 0px;
-	overflow: hidden;
-	background-color:#99cc66;
-	box-shadow: 0px 1px 5px #000;
-	-moz-box-shadow: 0px 1px 5px #000; 
-	-webkit-box-shadow: 0px 1px 5px #000; /* Google Chrome, Safari用
-}
-
-#header ul {
-	overflow:hidden;
-	height: 44px;
-}
-#header ul li {
-	text-align: center;
-	float: left;
-	width: 18%;
-}
-#header ul li a {
-	display:block;
-	padding:0%;
-	text-align:center;
-}
-#header ul li:last-child a {
-	border-right-color:#FFF;
-}
-#header ul img {
-	width:26px;
-	height:26px;
-	padding: 5px 0 5px 0;
-}
-#header ul li#logo {
-	width: 28%;
-	color:#600;
-	line-height: 34px;
-	font-weight: bold;
-	font-size: 27px;
-}
-/* 
-
-
 /* メイン
 --------------------*/
 section.content {
-	padding-top:50px;
+	padding-top:34px;
 	width:100%;
 	height:100%;
 	color:#3cb371;
@@ -147,6 +99,13 @@ section.content {
 	float:left;
 	position:fixed;
 }
+div.recipes {
+	width: 280px;
+	font-size: 16px;
+	margin: 10px 20px;
+	overflow: hidden;
+}
+
 a.border {
 	margin:auto;
 	text-align :left;
@@ -157,7 +116,7 @@ a.border {
 	width: 100px;
 	height: 100px;
 	box-shadow: 0px 0px 10px -2px rgba(0,0,0, 0.8);
-*/ 	background-position: center center;
+ 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -179,68 +138,78 @@ article span {
 	width:100%;
 	float:left;
 }
+
+
 /* 各関連◯部分
 --------------------*/
 #icon {
 	width:100%;
 	margin:0 0 -5% 0;
 }
-.pLeft{
-	width:50%;
-	height:33%;
-	float:left;
-}
-.pRight{
-	width:50%;
-	height:33%;
-	float:right;
+
+#p1,#p2,#p3,#p4 {
+	overflow:hidden;
+	width:135px;
+	height:185px;
 }
 
-/*
+
 #p1 {
-	width:50%;
-	height:33%;
+	background-color: #ffcc66;
 	float:left;
-}
-*/
-.position1 {
-	width:50%;
-	display:table-cell;
+	color: #900;
 	text-align:center;
-	color:#F60;
+	padding: 10px 0;
 }
+
+#p_img{
+	width: 120px;
+	height: 100px;
+	background-image: url(../../omochi/img/meat.jpg);
+	background-size:200px;
+	margin:5px auto;
+
+}
+
 .position1 a.border {
 	border:solid 5px rgba(255,102,0,0.6);
 }
 .position1 img {
 	height:40px;
 }
-/*
+
 #p2 {
-	width:50%;
-	height:33%;
+	background-color: #ffcccc;
 	float:right;
+	color: #900;
+	text-align:center;
+	padding: 10px 0;
+
 }
-*/
+
 .position2 {
 	width:50%;
 	display:table-cell;
 	text-align:center;
 	color:#f00;
 }
+
 .position2 a.border {
 	border:solid 5px rgba(255,0,0,0.6);
 }
 .position2 img {
 	height:40px;
 }
-/*
+
+
 #p3 {
-	width:50%;
-	height:33%;
+	background-color: #99cc99;
 	float:left;
+	color: #900;
+	text-align:center;
+	padding: 10px 0;
+	margin-top: 14px;
 }
-*/
 .position3 {
 	width:50%;
 	display:table-cell;
@@ -253,13 +222,14 @@ article span {
 .position3 img {
 	height:40px;
 }
-/*
 #p4 {
-	width:50%;
-	height:33%;
+	background-color: #F0E68C;
+	color: #900;
+	text-align:center;
+	padding: 10px 0;
+	margin-top: 14px;
 	float:right;
 }
-*/
 .position4 {
 	width:50%;
 	display:table-cell;
@@ -268,6 +238,7 @@ article span {
 }
 .position4 a.border {
 	border:solid 5px rgba(255,204,0,0.6);
+	
 }
 .position4 img {
 	height:40px;
