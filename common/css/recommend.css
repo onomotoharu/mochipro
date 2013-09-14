@@ -141,11 +141,24 @@ article span {
 	width:100%;
 	margin:0 0 -5% 0;
 }
+.pLeft{
+	width:50%;
+	height:33%;
+	float:left;
+}
+.pRight{
+	width:50%;
+	height:33%;
+	float:right;
+}
+
+/*
 #p1 {
 	width:50%;
 	height:33%;
 	float:left;
 }
+*/
 .position1 {
 	width:50%;
 	display:table-cell;
@@ -159,11 +172,13 @@ article span {
 .position1 img {
 	height:40px;
 }
+/*
 #p2 {
 	width:50%;
 	height:33%;
 	float:right;
 }
+*/
 .position2 {
 	width:50%;
 	display:table-cell;
@@ -176,11 +191,13 @@ article span {
 .position2 img {
 	height:40px;
 }
+/*
 #p3 {
 	width:50%;
 	height:33%;
 	float:left;
 }
+*/
 .position3 {
 	width:50%;
 	display:table-cell;
@@ -193,11 +210,13 @@ article span {
 .position3 img {
 	height:40px;
 }
+/*
 #p4 {
 	width:50%;
 	height:33%;
 	float:right;
 }
+*/
 .position4 {
 	width:50%;
 	display:table-cell;
@@ -236,7 +255,7 @@ article.main {
 ----------------------*/
 
 .viewport {
-    width: 88%;
+    width: 320px;
     overflow: hidden;
     margin: 0 auto;
     -webkit-transform: translateZ(0); /* Optional: When heavy at iOS6+ */
@@ -247,11 +266,32 @@ article.main {
 }
 
 .item {
-	float: left;
-	width: 22%;
-	height: 90px;
+   float: left;
+	width: 320px;
+	height: 190px;
 	font-size: 50px;
 	text-align: center;
-	padding: 50px 0;
-	color: #666;
+	background: #EFEFEF;
+	background-size: 320px;
+}
+
+#kakolog01 {
+	background-image: url(../../omochi/img/kakologimg.jpg);
+}
+
+#kakolog02 {
+	background-image: url(../../omochi/img/kakologimg02.jpg);
+}
+
+#kakolog03 {
+	background-image: url(../../omochi/img/kakologimg03.jpg);
+}
+
+
+/*----------------------
+		float
+----------------------*/
+
+.clear {
+	clear:both;
 }
