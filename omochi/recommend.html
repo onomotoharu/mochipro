@@ -21,7 +21,7 @@ function hideAdBar(){
 <script src="../common/js/modernizr.custom.js"></script>
 </head>
 
-<body>
+<body onLoad="hideAdBar()" onOrientationChange=!"hideAdBar()">
 <!-- overflow用の囲い -->
 <div id="bodyInner"> 
   
