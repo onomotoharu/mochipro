@@ -23,7 +23,7 @@ $(document).ready(function() {
 
     //手順
     $.each(recipe.process, function(i,item) {
-      $num = $('<div/>').addClass('number').append("1");
+      $num = $('<div/>').addClass('number').append(i+1);
       $text = $('<div/>').addClass('pro_text').append(item);
       $process = $('<div/>').addClass('process').append($num).append($text);
       $("#processes").append($process);
