@@ -170,16 +170,6 @@ title
 	
 }
 
-.fav{
-	width:10%;
-	float:left;
-	font-size: medium;
-	color: #ccc;
-	text-shadow: 0px 2px 2px #000; /*CSS3*/
-	-moz-text-shadow: 0px 2px 2px #000; /* Firefox用*/
-	-webkit-text-shadow: 0px 2px 2px #000; /* Google Chrome, Safari用*/
-
-}
 
 .clear {clear:both;}
 
@@ -205,22 +195,30 @@ photo
 	
 }
 
-/*----------------------------------------
-つくった　cooked
-----------------------------------------*/
 
-#cooked {
-	width: 120px;
-	height: 20px;
-	margin: 20px auto;
-	padding: 10px;
-	display: block;
+
+.fav{
+	width:40px;
+	font-size: medium;
+	color: #ccc;
+	float: right;
+	text-align:center;
+	border-left: 1px solid #999;
+	text-shadow: 0px 2px 2px #000; /*CSS3*/
+	-moz-text-shadow: 0px 2px 2px #000; /* Firefox用*/
+	-webkit-text-shadow: 0px 2px 2px #000; /* Google Chrome, Safari用*/
+
 }
 
+
+/*----------------------------------------
+つくった　cooked
+
+
 .cookedBg {
+	background-color:#333;
 	width: 120px;
 	height: 20px;
-	margin: 20px auto;
 	padding: 10px;
 	background-color: #99CC66;
 	text-align: center;
@@ -231,10 +229,16 @@ photo
 	box-shadow: 0px 5px 1px #669933;
 	border: 2px solid #669933;
 	-webkit-border-radius: 6px;
+	display: block;
+	froat: left;
 }
+
+----------------------------------------*/
 
 .cookedBg_on {
 	box-shadow: 0px 0px 1px #C27191;
+	display: block;
+
 }
 
 #cooked a {
