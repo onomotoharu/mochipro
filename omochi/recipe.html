@@ -64,13 +64,12 @@
 
 
 <section class="title">
-	<div class="recipename" id="recipename">もやしと豚肉の炒めもの</div>
+	<div class="recipename" id="recipename"></div>
 	<div class="fav" id="re_fav">★</div>　<!-- マイページ実装後にふぁぼボタンも実装 -->
 </section><div class="clear"></div>
 
 
 <div class="photo" id="re_photo">
-	<img src="ryori.jpg">
 </div>
 
 
@@ -79,9 +78,9 @@
 
 <section class="deta" name="deta">
     
-    <div class="time" id="time"><img src="../omochi/img/time.gif">　<strong>15</strong>分</div>
-    <div class="kcal" id="kcal"><img src="../omochi/img/kcal.gif">　約<strong>200</strong>kcal</div>
-    <div class="yen" id="yen"><img src="../omochi/img/money.gif">　約<strong>100</strong>円</div>
+    <div class="time" ><img src="../omochi/img/time.gif">　<strong id="time" ></strong>分</div>
+    <div class="kcal" ><img src="../omochi/img/kcal.gif">　約<strong id="kcal" ></strong>kcal</div>
+    <div class="yen" ><img src="../omochi/img/money.gif">　約<strong id="yen" ></strong>円</div>
 
 </section><div class="clear"></div>
 
@@ -91,42 +90,12 @@
     <tr>
     	<th colspan="2">材料：1人前</th>
     </tr>
-    <tr>
-        <td>もやしゃああああああ</td>
-        <td>1袋</td>
-    </tr>    
-    <tr>
-        <td>豚肉こま切れ</td>
-        <td>１００g</td>
-	</tr>
-    <tr>
-        <td>塩こしょう</td>
-        <td>少々</td>
-    </tr>
-    <tr>
-        <td>醤油</td>
-        <td>小さじ２</td>
-    </tr>
+    
 </table>
 
 
 
-
-<div class="process" name="process">
-	<div class="number">1</div>
-    <div class="pro_text">もやしは袋の中に水を入れて軽く洗います。<br>豚肉は、更に1cm位の幅に切ります。</div>
-</div>
-
-<div class="process" name="process">
-	<div class="number">2</div>
-    <div class="pro_text">フライパンに油をしいて豚肉を炒めます。<br>塩コショウで味付けをします。</div>
-</div>
-
-<div class="process" name="process">
-	<div class="number">3</div>
-    <div class="pro_text">豚肉に火が通ったら、もやしを加えてお好みの固さまで炒めます。最後に醤油をフライパンにたらし、さっとあえたら出来上がり。</div>
-</div>
-
+<div id="processes"></div>
 
 
 
@@ -146,6 +115,7 @@
 -->
 
 </section>
+<script type="text/javascript" src="../common/js/recipe.js"></script>
 <script type="text/javascript" src="../common/js/hover.js"></script>
 </body>
 </html>
