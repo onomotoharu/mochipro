@@ -5,7 +5,12 @@
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <title>recipeace</title>
+<meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../common/css/recommend.css" media="screen">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="../common/js/flipsnap.js"></script>
+<script type="text/javascript" src="../common/js/kakolog.js"></script>
 <link rel="stylesheet" type="text/css" href="../common/css/recommend.css" media="screen">
 <link rel="stylesheet" type="text/css" href="../common/css/default.css" />
 <link rel="stylesheet" type="text/css" href="../common/css/component.css" />
@@ -21,6 +26,7 @@
   <section id="all"> 
     
     <!-- ヘッダここから -->
+    
     <div id="head">
       <ul>
         <li id="logo">戻る</li>
@@ -28,67 +34,59 @@
       </ul>
     </div>
     
-    <!--
-    <nav id="header" name="nav">
-	<ul>
-		<li><a href="recommend.html"><img src="../common/img/icon_reco_on.png" border="0" onmouseover="this.src='../common/img/icon_reco.png'" onmouseout="this.src='../common/img/icon_reco_on.png'" /></a></li>
-		<li><a href="index.html"><img src="../common/img/icon_act_on.png" border="0" onmouseover="this.src='../common/img/icon_act.png'" onmouseout="this.src='../common/img/icon_act_on.png'" /></a></li>
-		<li id="logo">omochi</li>
-		<li><a href="index.html"><img src="../common/img/icon_my_on.png" border="0" onmouseover="this.src='../common/img/icon_my.png'" onmouseout="this.src='../common/img/icon_my_on.png'" /></a></li>
-		<li><a href="index.html"><img src="../common/img/icon_set_on.png" border="0" onmouseover="this.src='../common/img/icon_set.png'" onmouseout="this.src='../common/img/icon_set_on.png'" /></a></li>
-    </ul>
-</nav>
---> 
-    
     <!-- /ヘッダここまで --> 
+    
+    <div class="clear"></div>
     
     <!-- メインコンテンツここから -->
     <section class="content"> 
       <!-- 関連図ここから--> 
+
+		<div class="recipes">
+			<!--左上の◯-->
+			<div id = "p1">
+				<span>豚肉ともやしの炒めもの</span>
+				<div id="p_img01"></div>
+				<span>約100円</span>
+			</div>
+			<!--左上の◯ここまで--> 
+			
+			<!--右上の◯-->
+			<div id = "p2">
+			<span>簡単サラダ</span>
+			<a href="#l"><div id="p_img02"></div></a>
+			<span>約40kcal</span>
+			</div>
+			<!--右上の◯ここまで--> 
+			
+			
+			
+			<!--左下の◯-->
+			<div id = "p3">
+			<span>ふわふわ親子丼</span>
+			<a href="#l"><div id="p_img03"></div></a>
+			<span>たまご、ねぎ、鶏肉</span>
+			</div>
+			<!--左下の◯ここまで--> 
+			
+			<!--右下の◯-->
+			<div id = "p4">
+			<span>ミートスパ</span>
+			<a href="#l"><div id="p_img04"></div></a>
+			<span>約10分</span>
+			</div>
+			<!--右下の◯ここまで-->
+		</div>
       
-      <!--左上の◯-->
-      <div id = "p1">
-        <article class="position1">
-          <div id ="icon"><img src="../omochi/img/shokuzai.png" class="icon"></div>
-          <a href="#l" class="border" style="background-image: url('img/meat.jpg')"></a><span>食材</span> </article>
-      </div>
-      <!--左上の◯ここまで--> 
       
-      <!--右上の◯-->
-      <div id = "p2">
-        <article class="position2">
-          <div id ="icon"><img src="../omochi/img/time.png" class="icon"></div>
-          <a href="#l" class="border" style="background-image: url('img/meat.jpg')"> </a><span>時間</span> </article>
-      </div>
-      <!--右上の◯ここまで--> 
-      
-      <!--真ん中の◯-->
-      <div id = "p0">
-        <center>
-          <article class="main">
-            <div id ="icon"><img src="../omochi/img/main.png" class="icon"></div>
-            <a href="#l" class="mainborder" style="background-image: url('img/meat.jpg')"> </a><span>メイン</span> </article>
-        </center>
-      </div>
-      <!--真ん中の◯ここまで--> 
-      
-      <!--左下の◯-->
-      <div id = "p3">
-        <article class="position3">
-          <div id ="icon"> <img src="../omochi/img/taste.png" class="icon"></div>
-          <a href="#l" class="border" style="background-image: url('img/meat.jpg')"> </a><span>味</span> </article>
-      </div>
-      <!--左下の◯ここまで--> 
-      
-      <!--右下の◯-->
-      <div id = "p4">
-        <article class="position4">
-          <div id ="icon"> <img src="../omochi/img/money.png" class="icon"></div>
-          <a href="#l" class="border" style="background-image: url('img/meat.jpg')"> </a><span>金額</span> </article>
-      </div>
-      
-      <!--右下の◯ここまで--> 
-      
+      <div class="viewport">
+	    <div class="flipsnap">
+	        <a href=""><div class="item" id="kakolog01"></div></a>
+	        <a href=""><div class="item" id="kakolog02"></div></a>
+	        <a href=""><div class="item" id="kakolog03"></div></a>
+	    </div>
+	</div>
+	 
       <!-- /関連図ここまで --> 
     </section>
   </section>

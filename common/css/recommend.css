@@ -87,58 +87,10 @@ section#all {
 	font-size: 27px;
 }
 
-/* ナビゲーション部分
---------------------*/
-/*
-#header {
-	width:100%;
-	height: 34px;
-	padding: 0%;
-	position: fixed;
-	top: 0px;
-	overflow: hidden;
-	background-color:#99cc66;
-	box-shadow: 0px 1px 5px #000;
-	-moz-box-shadow: 0px 1px 5px #000; 
-	-webkit-box-shadow: 0px 1px 5px #000; /* Google Chrome, Safari用
-}
-
-#header ul {
-	overflow:hidden;
-	height: 44px;
-}
-#header ul li {
-	text-align: center;
-	float: left;
-	width: 18%;
-}
-#header ul li a {
-	display:block;
-	padding:0%;
-	text-align:center;
-}
-#header ul li:last-child a {
-	border-right-color:#FFF;
-}
-#header ul img {
-	width:26px;
-	height:26px;
-	padding: 5px 0 5px 0;
-}
-#header ul li#logo {
-	width: 28%;
-	color:#600;
-	line-height: 34px;
-	font-weight: bold;
-	font-size: 27px;
-}
-/* 
-
-
 /* メイン
 --------------------*/
 section.content {
-	padding-top:50px;
+	padding-top:34px;
 	width:100%;
 	height:100%;
 	color:#3cb371;
@@ -147,6 +99,13 @@ section.content {
 	float:left;
 	position:fixed;
 }
+div.recipes {
+	width: 280px;
+	font-size: 16px;
+	margin: 10px 20px;
+	overflow: hidden;
+}
+
 a.border {
 	margin:auto;
 	text-align :left;
@@ -157,7 +116,7 @@ a.border {
 	width: 100px;
 	height: 100px;
 	box-shadow: 0px 0px 10px -2px rgba(0,0,0, 0.8);
-*/ 	background-position: center center;
+ 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -179,50 +138,98 @@ article span {
 	width:100%;
 	float:left;
 }
+
+
 /* 各関連◯部分
 --------------------*/
 #icon {
 	width:100%;
 	margin:0 0 -5% 0;
 }
+
+#p1,#p2,#p3,#p4 {
+	overflow:hidden;
+	width:135px;
+/* 	height:185px; */
+	height: 160px;
+	border-radius: 7px;
+}
+
+span {
+	font-size:12px;
+}
+
+
 #p1 {
-	width:50%;
-	height:33%;
+	background-color: #ffcc66;
 	float:left;
-}
-.position1 {
-	width:50%;
-	display:table-cell;
+	color: #900;
 	text-align:center;
-	color:#F60;
+	padding: 10px 0;
 }
+
+#p_img01,#p_img02,#p_img03,#p_img04 {
+	width: 120px;
+	height: 100px;
+	background-size:200px;
+	background-position:center center;
+	margin:5px auto;
+}
+
+#p_img01 {
+	background-image: url(../../omochi/img/meat.jpg);
+}
+
+#p_img02 {
+	background-image: url(../../omochi/img/img02.jpg);
+}
+
+#p_img03 {
+	background-image: url(../../omochi/img/img03.jpg);
+}
+
+#p_img04 {
+	background-image: url(../../omochi/img/img04.jpg);
+}
+
 .position1 a.border {
 	border:solid 5px rgba(255,102,0,0.6);
 }
 .position1 img {
 	height:40px;
 }
+
 #p2 {
-	width:50%;
-	height:33%;
+	background-color: #ffcccc;
 	float:right;
+	color: #900;
+	text-align:center;
+	padding: 10px 0;
+
 }
+
 .position2 {
 	width:50%;
 	display:table-cell;
 	text-align:center;
 	color:#f00;
 }
+
 .position2 a.border {
 	border:solid 5px rgba(255,0,0,0.6);
 }
 .position2 img {
 	height:40px;
 }
+
+
 #p3 {
-	width:50%;
-	height:33%;
+	background-color: #99cc99;
 	float:left;
+	color: #900;
+	text-align:center;
+	padding: 10px 0;
+	margin-top: 14px;
 }
 .position3 {
 	width:50%;
@@ -237,8 +244,11 @@ article span {
 	height:40px;
 }
 #p4 {
-	width:50%;
-	height:33%;
+	background-color: #F0E68C;
+	color: #900;
+	text-align:center;
+	padding: 10px 0;
+	margin-top: 14px;
 	float:right;
 }
 .position4 {
@@ -249,6 +259,7 @@ article span {
 }
 .position4 a.border {
 	border:solid 5px rgba(255,204,0,0.6);
+	
 }
 .position4 img {
 	height:40px;
@@ -271,4 +282,52 @@ article.main {
 }
 .main img {
 	height:40px;
+}
+
+/*----------------------
+		kakolog
+----------------------*/
+
+.viewport {
+    width: 320px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-transform: translateZ(0); /* Optional: When heavy at iOS6+ */
+}
+
+.flipsnap {
+    width: 960px; /* 320px(item width) * 3(item count) */
+}
+
+.item {
+   float: left;
+	width: 320px;
+	height: 190px;
+	font-size: 50px;
+	text-align: center;
+	background: #EFEFEF;
+	background-size: 320px;
+	background-position: center,center;
+}
+
+#kakolog01 {
+	background-image: url(../../omochi/img/kakologimg.jpg);
+}
+
+#kakolog02 {
+	background-image: url(../../omochi/img/kakologimg02.jpg);
+}
+
+#kakolog03 {
+	background-image: url(../../omochi/img/kakologimg03.jpg);
+}
+
+
+/*----------------------
+		float
+----------------------*/
+
+.clear {
+	clear:both;
 }
