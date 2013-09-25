@@ -88,15 +88,16 @@
 
 #flickable1 {
         border: 1px solid #CCC;
-        width: 480px;
-        height: 155px;
+        width: 100%;
+        height: 140px;
         overflow: auto;
       }
       #flickable1 ul {
         list-style: none;
-        width:854px;
+        width:800px;
         margin: 0;
         padding: 5px;
+		overflow:hidden;
       }
       #flickable1 ul li {
         background-color: #EEE;
