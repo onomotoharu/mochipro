@@ -175,7 +175,7 @@ span {
 	margin:5px auto;
 }
 
-#p_img01 {
+/*#p_img01 {
 	background-image: url(../../omochi/img/meat.jpg);
 }
 
@@ -190,6 +190,7 @@ span {
 #p_img04 {
 	background-image: url(../../omochi/img/img04.jpg);
 }
+*/
 
 .position1 a.border {
 	border:solid 5px rgba(255,102,0,0.6);
