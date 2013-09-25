@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <title>recipeace</title>
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1">
 <link rel="stylesheet" type="text/css" href="../common/css/recommend.css" media="screen">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="../common/js/flipsnap.js"></script>
@@ -14,8 +14,15 @@
 <link rel="stylesheet" type="text/css" href="../common/css/recommend.css" media="screen">
 <link rel="stylesheet" type="text/css" href="../common/css/default.css" />
 <link rel="stylesheet" type="text/css" href="../common/css/component.css" />
-<link rel="stylesheet" type="text/css" href="../common/css/circleslider.css" />
-<script src="../common/js/modernizr.custom.js"></script>
+<link rel="stylesheet" type="text/css" href="../common/css/slide.css" />
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="../common/js/jquery.flickgal.js"></script>
+   <script type="text/javascript">
+      $(function() {
+          $('#flickable1').flickable();
+      });
+
+  </script>
 </head>
 
 <body>
@@ -77,19 +84,49 @@
 			</div>
 			<!--右下の◯ここまで-->
 		</div>
+     
       
-      
-      <div class="viewport">
+      <!--<div class="viewport">
 	    <div class="flipsnap">
 	        <a href=""><div class="item" id="kakolog01"></div></a>
 	        <a href=""><div class="item" id="kakolog02"></div></a>
 	        <a href=""><div class="item" id="kakolog03"></div></a>
 	    </div>
-	</div>
+	</div>-->
+    
+    <div id="flickable1">
+      <ul> 
+        <li>Content 1</li>
+        <li>Content 2</li>
+        <li>Content 3</li>
+        <li>Content 4</li>
+        <li>Content 5</li>
+        <li>Content 6</li>
+        <li>Content 7</li>
+      </ul>
+      <div style="clear:both;"></div>
+    </div>
+
+      <div class="arrows">
+        <a href="javascript:void(0);" class="prev">&lt;&lt;&nbsp;</a>
+        <a href="javascript:void(0);" class="next">&nbsp;&gt;&gt;</a>
+      </div>
+
+      <div class="nav">
+        <ul>
+          <li class="sea01"><a href="#sea01">・</a></li>
+          <li class="sea02"><a href="#sea02">・</a></li>
+          <li class="sea03"><a href="#sea03">・</a></li>
+          <li class="sea04"><a href="#sea04">・</a></li>
+        </ul>
+      </div>
+
+  </div>
+  <div class="message"></div>
 	 
       <!-- /関連図ここまで --> 
     </section>
-  </section>
+
   <div id="dl-menu" class="dl-menuwrapper">
     <button class="dl-trigger">Open Menu</button>
     <ul class="dl-menu">
@@ -104,7 +141,10 @@
   <!-- /全体ここまで --> 
   
 </div>
+ 
 
+  </div>
+ 
 <!-- /.bodyInner --> 
 <script src="../common/js/v1.9.1.jquery.min.js"></script> 
 <script src="../common/js/jquery.dlmenu.js"></script> 

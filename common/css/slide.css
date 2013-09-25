@@ -1,0 +1,112 @@
+/* ########### Styles other than FlickGal. ########### */
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.message {
+  text-align: center;
+  height:30px;
+}
+
+
+
+/* ########### FlickGal ########### */
+.yourFlickgalWrap .item { width: 100px }
+.yourFlickgalWrap .moving {
+ transition: transform .2s ease-out;
+  -webkit-transition: -webkit-transform .2s ease-out;
+  -moz-transition: -moz-transform .2s ease-out;
+}
+
+.yourFlickgalWrap .container .containerInner {
+  overflow: hidden;
+}
+.yourFlickgalWrap .container .containerInner .item {
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin: 0 2px;
+  border: 1px #10A29A solid;
+  background: lightseagreen;
+  color: rgba(0,0,0,.4);
+  font-weight: bold;
+  font-size: 100%;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.yourFlickgalWrap .nav {
+  text-align: center;
+  width:300px;
+}
+.yourFlickgalWrap .nav li {
+  display: inline-block;
+}
+
+.yourFlickgalWrap .nav li a {
+  text-decoration: none;
+  color: rgba(0,0,0,.2);
+  font-size: 100%;
+}
+.yourFlickgalWrap .nav li a:hover {
+  background: lightgray;
+}
+.yourFlickgalWrap .nav li a:active {
+  background: gray;
+}
+.yourFlickgalWrap .nav .selected a {
+  color: rgba(0,0,0,1);
+}
+.yourFlickgalWrap .arrows {
+	width:300px;
+  font-size: 100%;
+}
+.yourFlickgalWrap .arrows a {
+  text-decoration: none;
+  color: rgba(0,0,0,.6);
+}
+.yourFlickgalWrap .arrows a:hover {
+  background: lightgray;
+  color: rgba(0,0,0,1);
+}
+.yourFlickgalWrap .arrows a:active {
+  background: gray;
+}
+.yourFlickgalWrap .arrows a.off {
+  color: rgba(0,0,0,.2);
+  background: none;
+}
+.yourFlickgalWrap .arrows .prev {
+  float: left;
+}
+.yourFlickgalWrap .arrows .next {
+  float: right;
+}
+
+
+
+
+#flickable1 {
+        border: 1px solid #CCC;
+        width: 480px;
+        height: 155px;
+        overflow: auto;
+      }
+      #flickable1 ul {
+        list-style: none;
+        width:854px;
+        margin: 0;
+        padding: 5px;
+      }
+      #flickable1 ul li {
+        background-color: #EEE;
+        border: 1px solid #CCC;
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        padding: 5px;
+        float: left;
+      }
+      #flickable1 .ui-flickable-container {
+        cursor: pointer;
+      }
