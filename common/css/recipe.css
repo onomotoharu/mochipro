@@ -182,7 +182,7 @@ photo
 .photo{
 	width:90%;
 	margin:10px auto;
-	padding: 10px 10px 50px 10px;
+	padding: 10px 10px 0px 10px;
 	background-color: #fff;
 	box-shadow: 0px 2px 5px #000; /*CSS3*/
 	-moz-box-shadow: 0px 2px 5px #000; /* Firefox用*/
@@ -200,19 +200,18 @@ photo
 
 
 .fav{
-	width:10px;
-	font-size: medium;
+	width:40px;
+	font-size: large;
 	color: #ccc;
-	float: right;
+	float: left;
 	text-align:center;
-	margin: 10px;
-	padding: 5px;
-	background-color: #CC9966;
+	margin: 5px 0 0 0;
+	padding: 5px 0;
 	height: 30px;
-	border-left: 1px solid #999;
-	text-shadow: 0px 2px 2px #000; /*CSS3*/
-	-moz-text-shadow: 0px 2px 2px #000; /* Firefox用*/
-	-webkit-text-shadow: 0px 2px 2px #000; /* Google Chrome, Safari用*/
+	border-left: 1px solid #ccc;
+	text-shadow: 0px 1px 1px #000; /*CSS3*/
+	-moz-text-shadow: 0px 1px 1px #000; /* Firefox用*/
+	-webkit-text-shadow: 0px 1px 1px #000; /* Google Chrome, Safari用*/
 
 }
 
@@ -223,18 +222,17 @@ photo
 
 
 .cookedBox {
-	background-color:#CCC;
 	display:block;
 	padding:10px 0 0 0;
-	margin:10px auto; 
-	width: 270px;
+	margin:5px 0 0 5px; 
+	width: 230px;
 	height: 30px;
 	float: left;
 	text-align: center;
+	color: #ccc;
 }
 
 a .cookedBox {
-	background-color:#f0f0ff;
 	font-weight:bold;
 	font-size:large;
 }
